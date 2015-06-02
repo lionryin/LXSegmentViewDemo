@@ -14,6 +14,10 @@
 		A6B1CF241B1DC7B600100E9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B1CF231B1DC7B600100E9F /* Images.xcassets */; };
 		A6B1CF271B1DC7B600100E9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6B1CF251B1DC7B600100E9F /* LaunchScreen.xib */; };
 		A6B1CF331B1DC7B700100E9F /* LXSegmentViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B1CF321B1DC7B700100E9F /* LXSegmentViewDemoTests.m */; };
+		A6B1CF3E1B1DC7D600100E9F /* LXSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B1CF3D1B1DC7D600100E9F /* LXSegmentView.m */; };
+		A6B1CF411B1DD54600100E9F /* bg_tab_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B1CF3F1B1DD54600100E9F /* bg_tab_selected.png */; };
+		A6B1CF421B1DD54600100E9F /* select_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B1CF401B1DD54600100E9F /* select_flag.png */; };
+		A6B1CF441B1DD86700100E9F /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = A6B1CF431B1DD86700100E9F /* normal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		A6B1CF2C1B1DC7B700100E9F /* LXSegmentViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXSegmentViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B1CF311B1DC7B700100E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6B1CF321B1DC7B700100E9F /* LXSegmentViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSegmentViewDemoTests.m; sourceTree = "<group>"; };
+		A6B1CF3C1B1DC7D600100E9F /* LXSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSegmentView.h; sourceTree = "<group>"; };
+		A6B1CF3D1B1DC7D600100E9F /* LXSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSegmentView.m; sourceTree = "<group>"; };
+		A6B1CF3F1B1DD54600100E9F /* bg_tab_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_tab_selected.png; sourceTree = "<group>"; };
+		A6B1CF401B1DD54600100E9F /* select_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_flag.png; sourceTree = "<group>"; };
+		A6B1CF431B1DD86700100E9F /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,8 @@
 				A6B1CF1B1B1DC7B600100E9F /* AppDelegate.m */,
 				A6B1CF1D1B1DC7B600100E9F /* ViewController.h */,
 				A6B1CF1E1B1DC7B600100E9F /* ViewController.m */,
+				A6B1CF3C1B1DC7D600100E9F /* LXSegmentView.h */,
+				A6B1CF3D1B1DC7D600100E9F /* LXSegmentView.m */,
 				A6B1CF201B1DC7B600100E9F /* Main.storyboard */,
 				A6B1CF231B1DC7B600100E9F /* Images.xcassets */,
 				A6B1CF251B1DC7B600100E9F /* LaunchScreen.xib */,
@@ -96,6 +107,9 @@
 		A6B1CF161B1DC7B600100E9F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A6B1CF431B1DD86700100E9F /* normal.png */,
+				A6B1CF3F1B1DD54600100E9F /* bg_tab_selected.png */,
+				A6B1CF401B1DD54600100E9F /* select_flag.png */,
 				A6B1CF171B1DC7B600100E9F /* Info.plist */,
 				A6B1CF181B1DC7B600100E9F /* main.m */,
 			);
@@ -199,7 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B1CF441B1DD86700100E9F /* normal.png in Resources */,
 				A6B1CF221B1DC7B600100E9F /* Main.storyboard in Resources */,
+				A6B1CF421B1DD54600100E9F /* select_flag.png in Resources */,
+				A6B1CF411B1DD54600100E9F /* bg_tab_selected.png in Resources */,
 				A6B1CF271B1DC7B600100E9F /* LaunchScreen.xib in Resources */,
 				A6B1CF241B1DC7B600100E9F /* Images.xcassets in Resources */,
 			);
@@ -219,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B1CF3E1B1DC7D600100E9F /* LXSegmentView.m in Sources */,
 				A6B1CF1F1B1DC7B600100E9F /* ViewController.m in Sources */,
 				A6B1CF1C1B1DC7B600100E9F /* AppDelegate.m in Sources */,
 				A6B1CF191B1DC7B600100E9F /* main.m in Sources */,
